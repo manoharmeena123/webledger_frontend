@@ -1,0 +1,38 @@
+/* home.css */
+
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-content img {
+  width: 100%; /* Set the image width to 100% */
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-content p {
+  margin: 5px 0;
+  color: #777;
+}
+
+/* Additional styling as needed */
